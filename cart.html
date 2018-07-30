@@ -1,0 +1,41 @@
+<html>
+    <head>
+        <title>Cart</title>
+        
+        <link href="cart.css" rel="stylesheet">
+    </head>
+    <body>
+
+        <div class=main>
+            <header >
+                <h1><center>Shopping Cart</center></h1>
+
+            </header>
+        </div>
+        <div id="d1">
+            <form>
+                <center>
+                <input type="text" id="search"  autocomplete="off" />
+                <button id="search_cart" type="button" onclick="searchItems()">Search</button>
+            
+                <table border='3|1' id="carttable"></table>
+                </center>
+                <button type="reset" onclick="clearItems() ">Reset</button>
+                 <button type="button" onclick="addCart()">Add to Cart</button>
+            </div>
+            
+           
+            
+<div id="d3">
+    <h1>Add to cart</h1>
+                
+                 <table border='2|1' id="finalcart"></table>
+                <button id="checkoutButton" type="button" onclick="checkoutItems()" >Checkout for Total</button>
+               <table  border='4|1' id="bill"></table>
+    
+</div>                
+</form>
+    <script src="cart3.js" defer></script>  
+ 
+    </body>
+</html>

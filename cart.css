@@ -1,0 +1,77 @@
+header{
+    height:100px;
+    width:100%;
+    float: left;
+
+}
+#d1{
+    height: 200px;
+    width:60%;
+    float: left;
+    
+    
+}
+#d2{
+    height: 200px;
+    margin-left: 65%;
+    width:35%;
+   float: left;
+   margin-top: -200px;   
+}
+#reset{
+    height:200px;
+    float: left;
+}
+#d3{
+    float: left;
+    margin-top: 20px;
+    margin-left:10%;
+    border-bottom: 20px;
+}
+#carttable
+{
+    font-family: "Trebuchet Ms",Arial, Helvetica, sans-serif;
+    border-collapse: collapse;
+    margin-top: 10px;
+
+}
+#carttable td ,#carttable th{
+    border: 1px solid #ddd;
+    padding:8px;
+    padding-top:12px;
+    padding-bottom: 12px;
+    text-align: left;
+    background-color: #4CAF50;
+    color: white;
+}
+#finalcart{
+
+    padding-top: 12px;
+    padding-bottom: 12px;
+    text-align: left;
+    background-color: #4CAF50;
+    color:white;
+    border-collapse: collapse;
+    border: 1px solid#ddd;
+    padding: 8px;
+}
+#bill{
+
+ padding-top: 12px;
+    padding-bottom: 12px;
+    text-align: left;
+    background-color:blue;
+    color:white;
+    border-collapse: collapse;
+    border: 1px solid#ddd;
+    padding: 8px;
+}
+#search{
+    background-color:white;
+
+    color:black;
+    padding: 2px 32px;
+    text-align: center;
+    display: inline-block;
+    font-size: 15px;
+}
